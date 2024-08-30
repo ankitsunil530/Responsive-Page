@@ -1,0 +1,43 @@
+.db{
+    min-width:120px;
+    height: 100vh;
+    background-image: url("D:\Software Enginering\frontend\app\public\ph1.jpg");
+    text-align: center;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: inherit;
+    font-weight: 400;
+    font-display:initial;
+}
+/* .db h1{
+    padding-top: 0px;
+    padding-bottom: 0px;
+} */
+.flex{
+    display: flex;
+}
+.db .flex .left{
+    display: flex;
+    border: 5px solid indianred;
+    padding: 70px 240px 35px 203px;
+    border-radius: 35px;
+    max-width: 100px;
+    max-height:50px;
+    text-overflow: ellipsis;
+}
+.mid{
+    display: flex;
+    border: 5px solid indianred;
+    padding: 70px 240px 35px 203px;
+    border-radius: 35px;
+    margin-left:10px;
+    text-overflow: ellipsis;
+}
+.db .flex .right{
+    display: flex;
+    border: 5px solid indianred;
+    padding: 70px 240px 35px 203px;
+    border-radius: 35px;
+   
+    text-overflow: ellipsis;
+}

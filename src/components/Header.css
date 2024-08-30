@@ -1,0 +1,33 @@
+.navbar{
+    margin-top: -86;
+    margin-left:-86;
+    margin-right: -86;
+    background:linear-gradient(120deg,pink,violet);
+    display: flex;
+}
+.navbar .header{
+    color: black;
+}
+#main{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:40px;
+    font-style: italic;
+    font-weight: revert;
+  
+}
+.btn{
+    display: flex;
+    margin-left:500px;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: italic;
+    font-weight: 500;
+    color:black;
+    
+}
+@media screen {
+    .btn{
+        margin-left: 500px;
+    }
+}

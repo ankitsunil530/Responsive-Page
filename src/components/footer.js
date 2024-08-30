@@ -1,7 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-export default function footer() {
+import './Footer.css'
+function Footer() {
   return (
-    <div>footer</div>
+    <div className='flex items-center justify-center caret-green-600'>
+          <h1>2024 @Responsive Website About Us Linkedln</h1>
+    </div>
   )
 }
+
+export default Footer
